@@ -18,10 +18,10 @@ import net.minecraft.util.ResourceLocation;
 import static com.denfop.events.IUEventHandler.getUpgradeItem;
 
 @SideOnly(Side.CLIENT)
-public class GUIUpgradeBlock extends GuiIC2 {
+public class GuiUpgradeBlock extends GuiIC2 {
     public final ContainerDoubleElectricMachine<? extends TileEntityUpgradeBlock> container;
 
-    public GUIUpgradeBlock(ContainerDoubleElectricMachine<? extends TileEntityUpgradeBlock> container1) {
+    public GuiUpgradeBlock(ContainerDoubleElectricMachine<? extends TileEntityUpgradeBlock> container1) {
         super(container1);
         this.container = container1;
     }

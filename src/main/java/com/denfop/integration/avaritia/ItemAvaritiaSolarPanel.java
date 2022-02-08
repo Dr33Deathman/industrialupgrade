@@ -43,7 +43,7 @@ public class ItemAvaritiaSolarPanel extends ItemBlock implements IPanel {
     }
 
     public void addItemsNames() {
-        this.itemNames.add("blockNeutronSolarPanelAvaritia");
+        this.itemNames.add("IUBlockNeutronSolarPanelAvaritia");
         this.itemNames.add("blockinfinitySolarPanel");
     }
 

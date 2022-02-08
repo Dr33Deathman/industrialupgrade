@@ -14,12 +14,12 @@ import net.minecraft.util.StatCollector;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUINuclearReactor extends GuiContainer {
+public class GuiNuclearReactor extends GuiContainer {
     public final ContainerBaseNuclearReactor container;
     public final String name;
     private final ResourceLocation background;
 
-    public GUINuclearReactor(ContainerBaseNuclearReactor container1) {
+    public GuiNuclearReactor(ContainerBaseNuclearReactor container1) {
         super(container1);
 
         this.background = new ResourceLocation(Constants.TEXTURES, container1.base.background);

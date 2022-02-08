@@ -16,7 +16,7 @@ import net.minecraftforge.fluids.FluidStack;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUIDieselGenerator extends GuiContainer {
+public class GuiDieselGenerator extends GuiContainer {
     private static final ResourceLocation background;
 
     static {
@@ -26,7 +26,7 @@ public class GUIDieselGenerator extends GuiContainer {
     public ContainerDieselGenerator container;
     public String name;
 
-    public GUIDieselGenerator(ContainerDieselGenerator container1) {
+    public GuiDieselGenerator(ContainerDieselGenerator container1) {
         super(container1);
         this.container = container1;
         this.name = StatCollector.translateToLocal("iu.blockDiesel.name");

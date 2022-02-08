@@ -4,7 +4,7 @@ import com.denfop.IUCore;
 import com.denfop.audio.AudioSource;
 import com.denfop.block.base.BlocksItems;
 import com.denfop.container.ContainerElectrolyzer;
-import com.denfop.gui.GUIElectrolyzer;
+import com.denfop.gui.GuiElectrolyzer;
 import com.denfop.invslot.InvSlotElectrolyzer;
 import com.denfop.tiles.neutroniumgenerator.TileEntityElectricMachine;
 import cpw.mods.fml.relauncher.Side;
@@ -295,7 +295,7 @@ public class TileEntityElectrolyzer extends TileEntityElectricMachine implements
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIElectrolyzer(new ContainerElectrolyzer(entityPlayer, this));
+        return new GuiElectrolyzer(new ContainerElectrolyzer(entityPlayer, this));
 
     }
 

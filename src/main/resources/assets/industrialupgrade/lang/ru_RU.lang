@@ -54,21 +54,21 @@ inforamtionmolecular=Нажмите, чтобы изменить цвет инт
 inforamtionmolecular1=Нажмите, чтобы изменить режим работы преобразователя
 
 # Стандарные панели
-blockAdvancedSolarPanel.name=§8Улучшенная солнечная панель
-blockHybridSolarPanel.name=§3Гибридная солнечная панель
-blockUltimateSolarPanel.name=§9Совершенная гибридная солнечная панель
-blockQuantumSolarPanel.name=§2Квантовая солнечная панель
-blockSpectralSolarPanel.name=§eСпектральная солнечная панель
-blockSingularSolarPanel.name=§8Сингулярная солнечная панель
-blockAdminSolarPanel.name=§cДифракционная солнечная панель
-blockPhotonicSolarPanel.name=§aФотонная солнечная панель
-blockProtonSolarPanel.name=§5Протонная солнечная панель
-blockNeutronSolarPanel.name=§9Нейтронная солнечная панель
-blockBarionSolarPanel.name=§dБарионная солнечная панель
-blockAdronSolarPanel.name=§dАдронная солнечная панель
-blocGravitonSolarPanel.name=§dГравитонная солнечная панель
-blockKvarkSolarPanel.name=§dКварковая солнечная панель
-blockAdministatorSolarPanel.name=§8Административная солнечная панель
+IUBlockAdvancedSolarPanel.name=§8Улучшенная солнечная панель
+IUBlockHybridSolarPanel.name=§3Гибридная солнечная панель
+IUBlockUltimateSolarPanel.name=§9Совершенная гибридная солнечная панель
+IUBlockQuantumSolarPanel.name=§2Квантовая солнечная панель
+IUBlockSpectralSolarPanel.name=§eСпектральная солнечная панель
+IUBlockSingularSolarPanel.name=§8Сингулярная солнечная панель
+IUBlockAdminSolarPanel.name=§cДифракционная солнечная панель
+IUBlockPhotonicSolarPanel.name=§aФотонная солнечная панель
+IUBlockProtonSolarPanel.name=§5Протонная солнечная панель
+IUBlockNeutronSolarPanel.name=§9Нейтронная солнечная панель
+IUBlockBarionSolarPanel.name=§dБарионная солнечная панель
+IUBlockAdronSolarPanel.name=§dАдронная солнечная панель
+IUBlocGravitonSolarPanel.name=§dГравитонная солнечная панель
+IUBlockKvarkSolarPanel.name=§dКварковая солнечная панель
+IUBlockAdministatorSolarPanel.name=§8Административная солнечная панель
 
 # Панели Draconic Evolution
 blockDraconSolarPanel.name=§dДракониевая солнечная панель
@@ -81,7 +81,7 @@ blockTerrasteelSolarPanel.name=§aТеррастальная солнечная 
 blockElementumSolarPanel.name=§dЭлементиевая солнечная панель
 
 # Панели Avaritia
-blockNeutronSolarPanelAvaritia.name=§9Нейтрониевая солнечная панель
+IUBlockNeutronSolarPanelAvaritia.name=§9Нейтрониевая солнечная панель
 blockinfinitySolarPanel.name=Солнечная панель бесконечности
 blockInfinitySolarPanel.name=Солнечная панель бесконечности
 

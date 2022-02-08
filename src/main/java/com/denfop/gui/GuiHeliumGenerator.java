@@ -15,12 +15,12 @@ import net.minecraft.util.StatCollector;
 import net.minecraftforge.fluids.FluidStack;
 
 @SideOnly(Side.CLIENT)
-public class GUIHeliumGenerator extends GuiIC2 {
+public class GuiHeliumGenerator extends GuiIC2 {
     public final ContainerHeliumGenerator container;
 
     public final String progressLabel;
 
-    public GUIHeliumGenerator(ContainerHeliumGenerator container1) {
+    public GuiHeliumGenerator(ContainerHeliumGenerator container1) {
         super(container1);
         this.container = container1;
         this.progressLabel = StatCollector.translateToLocal("ic2.Matter.gui.info.progress");

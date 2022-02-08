@@ -54,21 +54,21 @@ inforamtionmolecular=Click to change GUI color
 inforamtionmolecular1=Click to change the operating mode of the transformer
 
 # Standart Panels
-blockAdvancedSolarPanel.name=§8Advanced Solar Panel
-blockHybridSolarPanel.name=§3Hybrid Solar Panel
-blockUltimateSolarPanel.name=§9Perfect Hybrid Solar Panel
-blockQuantumSolarPanel.name=§2Quantum Solar Panel
-blockSpectralSolarPanel.name=§eSpectral Solar Panel
-blockSingularSolarPanel.name=§8Singular Solar Panel
-blockAdminSolarPanel.name=§cDiffractive Solar Panel
-blockPhotonicSolarPanel.name=§aPhotonic Solar Panel
-blockProtonSolarPanel.name=§5Protonic Solar Panel
-blockNeutronSolarPanel.name=§9Neutron Solar Panel
-blockBarionSolarPanel.name=§dBaryon Solar Panel
-blockAdronSolarPanel.name=§dHadron Solar Panel
-blocGravitonSolarPanel.name=§dGraviton Solar Panel
-blockKvarkSolarPanel.name=§dQuark Solar Panel
-blockAdministatorSolarPanel.name=§8Administrative Solar Panel
+IUBlockAdvancedSolarPanel.name=§8Advanced Solar Panel
+IUBlockHybridSolarPanel.name=§3Hybrid Solar Panel
+IUBlockUltimateSolarPanel.name=§9Perfect Hybrid Solar Panel
+IUBlockQuantumSolarPanel.name=§2Quantum Solar Panel
+IUBlockSpectralSolarPanel.name=§eSpectral Solar Panel
+IUBlockSingularSolarPanel.name=§8Singular Solar Panel
+IUBlockAdminSolarPanel.name=§cDiffractive Solar Panel
+IUBlockPhotonicSolarPanel.name=§aPhotonic Solar Panel
+IUBlockProtonSolarPanel.name=§5Protonic Solar Panel
+IUBlockNeutronSolarPanel.name=§9Neutron Solar Panel
+IUBlockBarionSolarPanel.name=§dBaryon Solar Panel
+IUBlockAdronSolarPanel.name=§dHadron Solar Panel
+IUBlocGravitonSolarPanel.name=§dGraviton Solar Panel
+IUBlockKvarkSolarPanel.name=§dQuark Solar Panel
+IUBlockAdministatorSolarPanel.name=§8Administrative Solar Panel
 
 # Draconic Evolution Panels
 blockDraconSolarPanel.name=§dDraconic Solar Panel
@@ -81,7 +81,7 @@ blockTerrasteelSolarPanel.name=§aTerrasteel Solar Panel
 blockElementumSolarPanel.name=§dElementum Solar Panel
 
 # Avaritia Panels
-blockNeutronSolarPanelAvaritia.name=§9Neutronium Solar Panel
+IUBlockNeutronSolarPanelAvaritia.name=§9Neutronium Solar Panel
 blockinfinitySolarPanel.name=Infinity Solar Panel
 blockInfinitySolarPanel.name=Infinity Solar Panel
 

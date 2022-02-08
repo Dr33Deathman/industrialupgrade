@@ -4,7 +4,7 @@ import com.denfop.IUCore;
 import com.denfop.audio.AudioSource;
 import com.denfop.block.base.BlocksItems;
 import com.denfop.container.ContainerHydrogenGenerator;
-import com.denfop.gui.GUIHydrogenGenerator;
+import com.denfop.gui.GuiHydrogenGenerator;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import ic2.api.energy.event.EnergyTileLoadEvent;
@@ -231,7 +231,7 @@ public class TileEntityHydrogenGenerator extends TileEntityLiquidTankInventory i
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIHydrogenGenerator(new ContainerHydrogenGenerator(entityPlayer, this));
+        return new GuiHydrogenGenerator(new ContainerHydrogenGenerator(entityPlayer, this));
     }
 
     public void onBlockBreak(Block block, int meta) {

@@ -7,7 +7,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.IDoubleMachineRecipeManager;
 import com.denfop.api.Recipes;
-import com.denfop.gui.GUIAlloySmelter;
+import com.denfop.gui.GuiAlloySmelter;
 import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.util.StackUtil;
@@ -25,7 +25,7 @@ public class NEIAlloySmelter extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUIAlloySmelter.class;
+        return GuiAlloySmelter.class;
     }
 
     public String getRecipeName() {

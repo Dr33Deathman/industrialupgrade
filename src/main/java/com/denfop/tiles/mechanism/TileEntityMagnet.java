@@ -1,7 +1,7 @@
 package com.denfop.tiles.mechanism;
 
 import com.denfop.container.ContainerMagnet;
-import com.denfop.gui.GUIMagnet;
+import com.denfop.gui.GuiMagnet;
 import com.denfop.tiles.base.TileEntityElectricMachine;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -139,7 +139,7 @@ public class TileEntityMagnet extends TileEntityElectricMachine
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIMagnet(new ContainerMagnet(entityPlayer, this));
+        return new GuiMagnet(new ContainerMagnet(entityPlayer, this));
     }
 
     public ContainerBase<? extends TileEntityMagnet> getGuiContainer(EntityPlayer entityPlayer) {

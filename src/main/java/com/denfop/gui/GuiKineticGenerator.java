@@ -11,7 +11,7 @@ import net.minecraft.util.StatCollector;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUIKineticGenerator extends GuiContainer {
+public class GuiKineticGenerator extends GuiContainer {
     private static final ResourceLocation background;
 
     static {
@@ -21,7 +21,7 @@ public class GUIKineticGenerator extends GuiContainer {
     public ContainerKineticGenerator container;
     public String name;
 
-    public GUIKineticGenerator(ContainerKineticGenerator container1) {
+    public GuiKineticGenerator(ContainerKineticGenerator container1) {
         super(container1);
         this.container = container1;
         this.name = StatCollector.translateToLocal("ic2.KineticGenerator.gui.name");

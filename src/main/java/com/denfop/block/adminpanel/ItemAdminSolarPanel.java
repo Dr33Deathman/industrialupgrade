@@ -32,7 +32,7 @@ public class ItemAdminSolarPanel extends ItemBlock {
     }
 
     public void addItemsNames() {
-        this.itemNames.add("blockAdministatorSolarPanel");
+        this.itemNames.add("IUBlockAdministatorSolarPanel");
     }
 
     @SideOnly(Side.CLIENT)

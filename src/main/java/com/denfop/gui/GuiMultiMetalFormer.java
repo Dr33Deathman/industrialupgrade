@@ -15,9 +15,9 @@ import net.minecraft.util.StatCollector;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUIMultiMetalFormer extends GUIMultiMachine {
+public class GuiMultiMetalFormer extends GuiMultiMachine {
 
-    public GUIMultiMetalFormer(ContainerMultiMetalFormer container1) {
+    public GuiMultiMetalFormer(ContainerMultiMetalFormer container1) {
         super(container1);
     }
 

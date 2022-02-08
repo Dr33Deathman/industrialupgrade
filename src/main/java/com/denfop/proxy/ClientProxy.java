@@ -44,7 +44,7 @@ import com.denfop.render.upgradeblock.TileEntityUpgradeBlockItemRender;
 import com.denfop.render.upgradeblock.TileEntityUpgradeBlockRender;
 import com.denfop.tiles.base.*;
 import com.denfop.tiles.mechanism.*;
-import com.denfop.tiles.neutroniumgenerator.TileNeutronGenerator;
+import com.denfop.tiles.neutroniumgenerator.TileneutronGenerator;
 import com.denfop.tiles.reactors.TileEntityBaseNuclearReactorElectric;
 import com.denfop.tiles.se.TileAdvSolarGenerator;
 import com.denfop.tiles.se.TileImpSolarGenerator;
@@ -256,17 +256,17 @@ public class ClientProxy extends CommonProxy {
         if (!wrench) {
             if (te instanceof TileEntitySolarPanel) {
 
-                return new GUISolarPanels(new ContainerSolarPanels(player, (TileEntitySolarPanel) te));
+                return new GuiSolarPanels(new ContainerSolarPanels(player, (TileEntitySolarPanel) te));
             }
             if (te instanceof TileSintezator) {
                 return new GUISintezator(new ContainerSinSolarPanel<>(player, (TileSintezator) te));
             }
             if (te instanceof TileEntityKineticGenerator) {
-                return new GUIKineticGenerator(new ContainerKineticGenerator(player, (TileEntityKineticGenerator) te));
+                return new GuiKineticGenerator(new ContainerKineticGenerator(player, (TileEntityKineticGenerator) te));
             }
 
             if (te instanceof TileEntityFisher) {
-                return new GUIFisher(new ContainerFisher<>(player, (TileEntityFisher) te));
+                return new GuiFisher(new ContainerFisher<>(player, (TileEntityFisher) te));
             }
 
 
@@ -280,7 +280,7 @@ public class ClientProxy extends CommonProxy {
                 return ((TileEntityMultiMachine) te).getGui(player, false);
             }
             if (te instanceof TileEntityPlasticPlateCreator) {
-                return new GUIPlasticPlateCreator(new ContainerPlasticPlateCreator<>(player, (TileEntityPlasticPlateCreator) te));
+                return new GuiPlasticPlateCreator(new ContainerPlasticPlateCreator<>(player, (TileEntityPlasticPlateCreator) te));
             }
 
             if (te instanceof TileEntityHeliumGenerator) {
@@ -307,25 +307,25 @@ public class ClientProxy extends CommonProxy {
                 return ((TileEntityMultiMatter) te).getGui(player, false);
             }
             if (te instanceof TileEntityBaseGenerator) {
-                return new GUIGenerator(new ContainerGenerator<>(player, (TileEntityBaseGenerator) te));
+                return new GuiGenerator(new ContainerGenerator<>(player, (TileEntityBaseGenerator) te));
             }
 
             if (te instanceof TileEntityMagnet) {
-                return new GUIMagnet(new ContainerMagnet<>(player, (TileEntityMagnet) te));
+                return new GuiMagnet(new ContainerMagnet<>(player, (TileEntityMagnet) te));
             }
             if (te instanceof TileSunnariumMaker) {
-                return new GUISunnariumMaker(new ContainerSunnariumMaker<>(player, (TileSunnariumMaker) te));
+                return new GuiSunnariumMaker(new ContainerSunnariumMaker<>(player, (TileSunnariumMaker) te));
             }
 
 
             if (te instanceof TileEntityElectrolyzer)
-                return new GUIElectrolyzer(new ContainerElectrolyzer(player, (TileEntityElectrolyzer) te));
+                return new GuiElectrolyzer(new ContainerElectrolyzer(player, (TileEntityElectrolyzer) te));
 
             if (te instanceof TileEntityWitherMaker)
-                return new GUIWitherMaker(new ContainerBaseWitherMaker<>(player, (TileEntityWitherMaker) te));
+                return new GuiWitherMaker(new ContainerBaseWitherMaker<>(player, (TileEntityWitherMaker) te));
 
             if (te instanceof TileEntityPlasticCreator)
-                return new GUIPlasticCreator(new ContainerPlasticCreator<>(player, (TileEntityPlasticCreator) te));
+                return new GuiPlasticCreator(new ContainerPlasticCreator<>(player, (TileEntityPlasticCreator) te));
 
             if (te instanceof TileEntityDoubleElectricMachine)
                 return ((TileEntityDoubleElectricMachine) te).getGui(player, false);
@@ -343,61 +343,61 @@ public class ClientProxy extends CommonProxy {
 
 
             if (te instanceof TileEntityLavaGenerator)
-                return new GUILavaGenerator(new ContainerLavaGenerator(player, (TileEntityLavaGenerator) te));
+                return new GuiLavaGenerator(new ContainerLavaGenerator(player, (TileEntityLavaGenerator) te));
 
             if (te instanceof TileEntityHandlerHeavyOre)
-                return new GUIHandlerHeavyOre(new ContainerHandlerHeavyOre<>(player, (TileEntityHandlerHeavyOre) te));
+                return new GuiHandlerHeavyOre(new ContainerHandlerHeavyOre<>(player, (TileEntityHandlerHeavyOre) te));
 
             if (te instanceof TileEntityHydrogenGenerator)
-                return new GUIHydrogenGenerator(new ContainerHydrogenGenerator(player, (TileEntityHydrogenGenerator) te));
+                return new GuiHydrogenGenerator(new ContainerHydrogenGenerator(player, (TileEntityHydrogenGenerator) te));
             if (te instanceof TileEntityObsidianGenerator)
-                return new GUIObsidianGenerator(new ContainerObsidianGenerator(player, (TileEntityObsidianGenerator) te));
+                return new GuiObsidianGenerator(new ContainerObsidianGenerator(player, (TileEntityObsidianGenerator) te));
 
             if (te instanceof TileEntityAnalyzer)
                 return new GUIAnalyzer(new ContainerAnalyzer<>(player, (TileEntityAnalyzer) te));
 
             if (te instanceof TileEntityBaseNuclearReactorElectric)
-                return new GUINuclearReactor(new ContainerBaseNuclearReactor(player, (TileEntityBaseNuclearReactorElectric) te));
+                return new GuiNuclearReactor(new ContainerBaseNuclearReactor(player, (TileEntityBaseNuclearReactorElectric) te));
 
             if (te instanceof TileEntityGeoGenerator) {
-                return new GUIGeoGenerator(new ContainerGeoGenerator(player, (TileEntityGeoGenerator) te));
+                return new GuiGeoGenerator(new ContainerGeoGenerator(player, (TileEntityGeoGenerator) te));
             }
             if (te instanceof TileEntityOilRefiner) {
-                return new GUIOilRefiner(new ContainerOilRefiner(player, (TileEntityOilRefiner) te));
+                return new GuiOilRefiner(new ContainerOilRefiner(player, (TileEntityOilRefiner) te));
             }
             if (te instanceof TileEntityAdvOilRefiner) {
-                return new GUIAdvOilRefiner(new ContainerAdvOilRefiner(player, (TileEntityAdvOilRefiner) te));
+                return new GuiAdvOilRefiner(new ContainerAdvOilRefiner(player, (TileEntityAdvOilRefiner) te));
             }
 
             if (te instanceof TileEntityDieselGenerator) {
-                return new GUIDieselGenerator(new ContainerDieselGenerator(player, (TileEntityDieselGenerator) te));
+                return new GuiDieselGenerator(new ContainerDieselGenerator(player, (TileEntityDieselGenerator) te));
             }
             if (te instanceof TileEntityPetrolGenerator) {
-                return new GUIPetrolGenerator(new ContainerPetrolGenerator(player, (TileEntityPetrolGenerator) te));
+                return new GuiPetrolGenerator(new ContainerPetrolGenerator(player, (TileEntityPetrolGenerator) te));
             }
 
             if (te instanceof TileEntityElectricAdvMFSU) {
 
-                return new GUIElectricBlock(new ContainerElectricBlock(player, (TileEntityElectricAdvMFSU) te));
+                return new GuiElectricBlock(new ContainerElectricBlock(player, (TileEntityElectricAdvMFSU) te));
             }
 
             if (te instanceof TileEntityElectricBlock) {
 
-                return new GUIElectricBlock(new ContainerElectricBlock(player, (TileEntityElectricBlock) te));
+                return new GuiElectricBlock(new ContainerElectricBlock(player, (TileEntityElectricBlock) te));
             }
-            if (te instanceof TileNeutronGenerator) {
+            if (te instanceof TileneutronGenerator) {
 
-                return new GUINeutronGenerator(new ContainerNeutroniumGenerator(player, (TileNeutronGenerator) te));
+                return new GuiNeutronGenerator(new ContainerNeutroniumGenerator(player, (TileneutronGenerator) te));
             }
             if (te instanceof TileEntityGenerationMicrochip) {
-                return new GUIGenerationMicrochip(new ContainerBaseGenerationChipMachine<>(player, (TileEntityGenerationMicrochip) te));
+                return new GuiGenerationMicrochip(new ContainerBaseGenerationChipMachine<>(player, (TileEntityGenerationMicrochip) te));
             }
             if (te instanceof TileEntityConverterSolidMatter)
                 return new GUIConverterSolidMatter(new ContainerConverterSolidMatter(player, (TileEntityConverterSolidMatter) te));
 
             if (te instanceof TileEntityTransformer) {
 
-                return new GUITransformer(new ContainerTransformer(player, (TileEntityTransformer) te));
+                return new GuiTransformer(new ContainerTransformer(player, (TileEntityTransformer) te));
             }
             if (te instanceof TileEntityOilGetter) {
 
@@ -409,15 +409,15 @@ public class ClientProxy extends CommonProxy {
             }
             if (te instanceof TileSolarGeneratorEnergy) {
 
-                return new GUISolarGeneratorEnergy(new ContainerSolarGeneratorEnergy(player, (TileSolarGeneratorEnergy) te));
+                return new GuiSolarGeneratorEnergy(new ContainerSolarGeneratorEnergy(player, (TileSolarGeneratorEnergy) te));
             }
             if (te instanceof TileEntityModuleMachine)
                 return new GUIModuleMachine(new ContainerModuleMachine<>(player, (TileEntityModuleMachine) te));
 
             if (te instanceof TileEntityGenerationStone)
-                return new GUIGenStone(new ContainerGenStone<>(player, (TileEntityGenerationStone) te));
+                return new GuiGenStone(new ContainerGenStone<>(player, (TileEntityGenerationStone) te));
             if (te instanceof TileEntityBaseQuantumQuarry)
-                return new GUIQuantumQuarry(new ContainerQuantumQuarry<>(player, (TileEntityBaseQuantumQuarry) te));
+                return new GuiQuantumQuarry(new ContainerQuantumQuarry<>(player, (TileEntityBaseQuantumQuarry) te));
         }
 
         return null;

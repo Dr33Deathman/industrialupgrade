@@ -7,7 +7,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.Recipes;
 import com.denfop.block.base.BlocksItems;
-import com.denfop.gui.GUINeutronGenerator;
+import com.denfop.gui.GuiNeutronGenerator;
 import com.denfop.item.ItemCell;
 import com.denfop.utils.ModUtils;
 import ic2.core.util.DrawUtil;
@@ -35,7 +35,7 @@ public class NEINeutronGenerator extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUINeutronGenerator.class;
+        return GuiNeutronGenerator.class;
     }
 
     public String getRecipeName() {

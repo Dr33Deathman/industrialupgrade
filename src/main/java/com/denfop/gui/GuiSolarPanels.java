@@ -20,12 +20,12 @@ import java.util.List;
 
 import static ic2.core.util.GuiTooltipHelper.drawTooltip;
 
-public class GUISolarPanels extends GuiContainer {
+public class GuiSolarPanels extends GuiContainer {
     public final TileEntitySolarPanel tileentity;
     private ResourceLocation res;
 
 
-    public GUISolarPanels(ContainerSolarPanels container) {
+    public GuiSolarPanels(ContainerSolarPanels container) {
         super(container);
         this.tileentity = container.tileentity;
         this.allowUserInput = false;

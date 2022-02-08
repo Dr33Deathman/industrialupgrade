@@ -23,14 +23,14 @@ import java.util.List;
 import static ic2.core.util.GuiTooltipHelper.drawTooltip;
 
 @SideOnly(Side.CLIENT)
-public class GUIElectricBlock extends GuiContainer {
+public class GuiElectricBlock extends GuiContainer {
     private static final ResourceLocation background = new ResourceLocation(Constants.TEXTURES,
             "textures/gui/GUIElectricBlockEuRf.png");
     private final ContainerElectricBlock container;
     private final String armorInv;
     private final String name;
 
-    public GUIElectricBlock(ContainerElectricBlock container1) {
+    public GuiElectricBlock(ContainerElectricBlock container1) {
         super(container1);
         this.ySize = 196;
         this.container = container1;

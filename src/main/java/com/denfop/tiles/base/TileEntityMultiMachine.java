@@ -8,10 +8,10 @@ import com.denfop.api.Recipes;
 import com.denfop.api.inv.IInvSlotProcessableMulti;
 import com.denfop.audio.AudioSource;
 import com.denfop.container.ContainerMultiMachine;
-import com.denfop.gui.GUIMultiMachine;
-import com.denfop.gui.GUIMultiMachine1;
-import com.denfop.gui.GUIMultiMachine2;
-import com.denfop.gui.GUIMultiMachine3;
+import com.denfop.gui.GuiMultiMachine;
+import com.denfop.gui.GuiMultiMachine1;
+import com.denfop.gui.GuiMultiMachine2;
+import com.denfop.gui.GuiMultiMachine3;
 import com.denfop.invslot.InvSlotProcessableMultiSmelting;
 import com.denfop.tiles.mechanism.EnumMultiMachine;
 import com.denfop.tiles.overtimepanel.EnumSolarPanels;
@@ -454,13 +454,13 @@ public abstract class TileEntityMultiMachine extends TileEntityElectricMachine i
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
         if (type == 0)
-            return new GUIMultiMachine(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
+            return new GuiMultiMachine(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
         if (type == 1)
-            return new GUIMultiMachine1(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
+            return new GuiMultiMachine1(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
         if (type == 2)
-            return new GUIMultiMachine2(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
+            return new GuiMultiMachine2(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
         if (type == 3)
-            return new GUIMultiMachine3(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
+            return new GuiMultiMachine3(new ContainerMultiMachine(entityPlayer, this, sizeWorkingSlot));
 
         return null;
     }

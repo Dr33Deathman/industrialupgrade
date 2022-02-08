@@ -8,7 +8,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.IPlasticRecipemanager;
 import com.denfop.api.Recipes;
-import com.denfop.gui.GUIPlasticCreator;
+import com.denfop.gui.GuiPlasticCreator;
 import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.util.DrawUtil;
@@ -32,7 +32,7 @@ public class NEIChemicalFactrory extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUIPlasticCreator.class;
+        return GuiPlasticCreator.class;
     }
 
     public String getRecipeName() {

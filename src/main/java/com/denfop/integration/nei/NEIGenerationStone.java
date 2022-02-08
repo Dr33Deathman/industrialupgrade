@@ -7,7 +7,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.IGenStoneRecipeManager;
 import com.denfop.api.Recipes;
-import com.denfop.gui.GUIGenStone;
+import com.denfop.gui.GuiGenStone;
 import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.util.StackUtil;
@@ -24,7 +24,7 @@ public class NEIGenerationStone extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUIGenStone.class;
+        return GuiGenStone.class;
     }
 
     public String getRecipeName() {

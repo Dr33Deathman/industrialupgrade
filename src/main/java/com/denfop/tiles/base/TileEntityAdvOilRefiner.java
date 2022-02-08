@@ -5,7 +5,7 @@ import com.denfop.api.IFluidItem;
 import com.denfop.audio.AudioSource;
 import com.denfop.block.base.BlocksItems;
 import com.denfop.container.ContainerAdvOilRefiner;
-import com.denfop.gui.GUIAdvOilRefiner;
+import com.denfop.gui.GuiAdvOilRefiner;
 import com.denfop.tiles.neutroniumgenerator.TileEntityElectricMachine;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -252,7 +252,7 @@ public class TileEntityAdvOilRefiner extends TileEntityElectricMachine implement
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIAdvOilRefiner(new ContainerAdvOilRefiner(entityPlayer, this));
+        return new GuiAdvOilRefiner(new ContainerAdvOilRefiner(entityPlayer, this));
 
     }
 

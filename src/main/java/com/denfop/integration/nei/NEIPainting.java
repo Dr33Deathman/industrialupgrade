@@ -7,7 +7,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.IDoubleMachineRecipeManager;
 import com.denfop.api.Recipes;
-import com.denfop.gui.GUIPainting;
+import com.denfop.gui.GuiPainting;
 import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.util.StackUtil;
@@ -26,7 +26,7 @@ public class NEIPainting extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUIPainting.class;
+        return GuiPainting.class;
     }
 
     public String getRecipeName() {

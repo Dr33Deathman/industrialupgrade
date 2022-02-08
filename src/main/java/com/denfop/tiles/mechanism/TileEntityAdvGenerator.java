@@ -1,7 +1,7 @@
 package com.denfop.tiles.mechanism;
 
 import com.denfop.container.ContainerGenerator;
-import com.denfop.gui.GUIGenerator;
+import com.denfop.gui.GuiGenerator;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import ic2.core.ContainerBase;
@@ -61,6 +61,6 @@ public class TileEntityAdvGenerator extends TileEntityBaseGenerator {
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIGenerator(new ContainerGenerator(entityPlayer, this));
+        return new GuiGenerator(new ContainerGenerator(entityPlayer, this));
     }
 }

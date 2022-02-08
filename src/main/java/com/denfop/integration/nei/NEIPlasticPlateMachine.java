@@ -8,7 +8,7 @@ import codechicken.nei.recipe.TemplateRecipeHandler;
 import com.denfop.Constants;
 import com.denfop.api.IPlasticPlateRecipemanager;
 import com.denfop.api.Recipes;
-import com.denfop.gui.GUIPlasticPlateCreator;
+import com.denfop.gui.GuiPlasticPlateCreator;
 import ic2.api.recipe.IRecipeInput;
 import ic2.api.recipe.RecipeOutput;
 import ic2.core.util.DrawUtil;
@@ -32,7 +32,7 @@ public class NEIPlasticPlateMachine extends TemplateRecipeHandler {
     int ticks;
 
     public Class<? extends GuiContainer> getGuiClass() {
-        return GUIPlasticPlateCreator.class;
+        return GuiPlasticPlateCreator.class;
     }
 
     public String getRecipeName() {

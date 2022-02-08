@@ -11,14 +11,14 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUISolarGeneratorEnergy extends GuiContainer {
+public class GuiSolarGeneratorEnergy extends GuiContainer {
     private static final ResourceLocation background = new ResourceLocation(Constants.TEXTURES,
             "textures/gui/SunnariumGenerator.png");
     private final ContainerSolarGeneratorEnergy container;
     private final String name;
 
 
-    public GUISolarGeneratorEnergy(ContainerSolarGeneratorEnergy container1) {
+    public GuiSolarGeneratorEnergy(ContainerSolarGeneratorEnergy container1) {
         super(container1);
         this.ySize = 196;
         this.container = container1;

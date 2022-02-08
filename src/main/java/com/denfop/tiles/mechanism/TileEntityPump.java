@@ -1,7 +1,7 @@
 package com.denfop.tiles.mechanism;
 
 import com.denfop.container.ContainerPump;
-import com.denfop.gui.GUIPump;
+import com.denfop.gui.GuiPump;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import ic2.api.Direction;
@@ -263,7 +263,7 @@ public class TileEntityPump extends TileEntityLiquidTankElectricMachine implemen
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIPump(new ContainerPump(entityPlayer, this));
+        return new GuiPump(new ContainerPump(entityPlayer, this));
     }
 
     public void onGuiClosed(EntityPlayer entityPlayer) {

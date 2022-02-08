@@ -2,7 +2,7 @@ package com.denfop.tiles.base;
 
 import com.denfop.api.IFluidItem;
 import com.denfop.container.ContainerPlasticCreator;
-import com.denfop.gui.GUIPlasticCreator;
+import com.denfop.gui.GuiPlasticCreator;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import ic2.api.network.INetworkTileEntityEventListener;
@@ -277,7 +277,7 @@ public class TileEntityBasePlasticCreator extends TileEntityElectricMachine
 
     @SideOnly(Side.CLIENT)
     public GuiScreen getGui(EntityPlayer entityPlayer, boolean isAdmin) {
-        return new GUIPlasticCreator(new ContainerPlasticCreator(entityPlayer, this));
+        return new GuiPlasticCreator(new ContainerPlasticCreator(entityPlayer, this));
 
     }
 

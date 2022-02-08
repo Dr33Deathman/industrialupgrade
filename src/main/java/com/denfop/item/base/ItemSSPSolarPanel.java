@@ -40,20 +40,20 @@ public class ItemSSPSolarPanel extends ItemBlock implements IPanel {
     }
 
     public void addItemsNames() {
-        this.itemNames.add("blockAdvancedSolarPanel");
-        this.itemNames.add("blockHybridSolarPanel");
-        this.itemNames.add("blockUltimateSolarPanel");
-        this.itemNames.add("blockQuantumSolarPanel");
-        this.itemNames.add("blockSpectralSolarPanel");
-        this.itemNames.add("blockProtonSolarPanel");
-        this.itemNames.add("blockSingularSolarPanel");
-        this.itemNames.add("blockAdminSolarPanel");
-        this.itemNames.add("blockPhotonicSolarPanel");
-        this.itemNames.add("blockNeutronSolarPanel");
-        this.itemNames.add("blockBarionSolarPanel");
-        this.itemNames.add("blockAdronSolarPanel");
-        this.itemNames.add("blocGravitonSolarPanel");
-        this.itemNames.add("blockKvarkSolarPanel");
+        this.itemNames.add("IUBlockAdvancedSolarPanel");
+        this.itemNames.add("IUBlockHybridSolarPanel");
+        this.itemNames.add("IUBlockUltimateSolarPanel");
+        this.itemNames.add("IUBlockQuantumSolarPanel");
+        this.itemNames.add("IUBlockSpectralSolarPanel");
+        this.itemNames.add("IUBlockProtonSolarPanel");
+        this.itemNames.add("IUBlockSingularSolarPanel");
+        this.itemNames.add("IUBlockAdminSolarPanel");
+        this.itemNames.add("IUBlockPhotonicSolarPanel");
+        this.itemNames.add("IUBlockNeutronSolarPanel");
+        this.itemNames.add("IUBlockBarionSolarPanel");
+        this.itemNames.add("IUBlockAdronSolarPanel");
+        this.itemNames.add("IUBlocGravitonSolarPanel");
+        this.itemNames.add("IUBlockKvarkSolarPanel");
     }
 
     public void getSubItems(final Item item, final CreativeTabs tabs, final List itemList) {

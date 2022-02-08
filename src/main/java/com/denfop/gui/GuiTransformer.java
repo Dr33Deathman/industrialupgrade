@@ -15,13 +15,13 @@ import net.minecraft.util.StatCollector;
 import org.lwjgl.opengl.GL11;
 
 @SideOnly(Side.CLIENT)
-public class GUITransformer extends GuiContainer {
+public class GuiTransformer extends GuiContainer {
     private static final ResourceLocation background = new ResourceLocation(IC2.textureDomain, "textures/gui/GUITransfomer.png");
     public final ContainerTransformer container;
     public final String name;
     public final String[] mode = new String[]{"", "", "", ""};
 
-    public GUITransformer(ContainerTransformer container1) {
+    public GuiTransformer(ContainerTransformer container1) {
         super(container1);
         this.container = container1;
         this.name = StatCollector.translateToLocal("ic2.blockTransformer");

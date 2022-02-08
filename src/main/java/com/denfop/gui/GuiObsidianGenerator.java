@@ -16,10 +16,10 @@ import net.minecraft.util.StatCollector;
 import net.minecraftforge.fluids.FluidStack;
 
 @SideOnly(Side.CLIENT)
-public class GUIObsidianGenerator extends GuiIC2 {
+public class GuiObsidianGenerator extends GuiIC2 {
     public final ContainerObsidianGenerator container;
 
-    public GUIObsidianGenerator(ContainerObsidianGenerator container1) {
+    public GuiObsidianGenerator(ContainerObsidianGenerator container1) {
         super(container1);
         this.container = container1;
     }
